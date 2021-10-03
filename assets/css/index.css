@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.book_block{
+    display: flex;
+}
+.author_name{
+    margin-right: .5em;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/index.js"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+    </div>
+    <script type="text/javascript">
+        function link() {
+          var link_s = document.getElementById('link_id').value;
+          document.getElementById('link_str').innerHTML = link_s.link()
+        }
+      </script>
+    
+      <h2> Search box </h2>
+      <input type='text' id='link_id'>
+      <input type='button' id='link_str' value='Search' onClick='link()'>
+</body>
+</html>
+
+
+
